@@ -1,0 +1,44 @@
+.main-div {
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.heading {
+  text-align: left;
+  margin-left: 3vw;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  font-size: 20px;
+}
+
+input[type="text"]:focus {
+  border: 3px solid #555;
+}
+
+input[type="button"] {
+  margin-left: 1vw;
+  background-color: #6fa5d8;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.active {
+  background-color: #1060aa !important;
+}
+
+input[type="button"]:focus {
+  outline: none;
+}

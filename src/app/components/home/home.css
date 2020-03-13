@@ -1,0 +1,17 @@
+.outer-div {
+  margin: 2%;
+}
+
+.add-todo-div {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.header-div {
+  text-align: center;
+  padding-bottom: 5vh;
+}
+
+.todo-list-div {
+  margin-top: 10vh;
+}
